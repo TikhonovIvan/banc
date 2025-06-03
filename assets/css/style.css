@@ -8448,3 +8448,11 @@ del {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.nice-select {
+  width: 250px !important;
+  padding: 0 10px;
+}
+.nice-select:after {
+  display: none;
+}
