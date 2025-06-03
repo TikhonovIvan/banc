@@ -8456,3 +8456,31 @@ del {
 .nice-select:after {
   display: none;
 }
+
+/*кастомная кнопка*/
+.btn-cast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  width: 250px;
+  height: 50px;
+  background-color: #3589f1;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-cast:hover {
+  background-color: #0078ff;
+}
+
+.card-text span {
+  color: #0078ff;
+}
+
+.wrapper-block-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
